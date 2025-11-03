@@ -4,36 +4,11 @@ All URIs are relative to *https://esi.evetech.net*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**GetHeaders**](MetaApi.md#GetHeaders) | **Get** /headers/ | Debug request headers
 [**GetPing**](MetaApi.md#GetPing) | **Get** /ping | Ping route
 [**GetStatus**](MetaApi.md#GetStatus) | **Get** /status.json | ESI health status
 [**GetVerify**](MetaApi.md#GetVerify) | **Get** /verify/ | Verify access token
 [**GetVersions**](MetaApi.md#GetVersions) | **Get** /versions/ | List versions
 
-
-# **GetHeaders**
-> map[string]string GetHeaders(ctx, )
-Debug request headers
-
-Echo the request headers for debugging purposes. Note that the 'Connection' header and any 'X-' headers are not included
-
-### Required Parameters
-This endpoint does not need any parameter.
-
-### Return type
-
-**map[string]string**
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
- - **Content-Type**: Not defined
- - **Accept**: application/json
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **GetPing**
 > string GetPing(ctx, )

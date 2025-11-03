@@ -4,28 +4,28 @@ All URIs are relative to *https://esi.evetech.net*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**GetCorporationsCorporationId**](CorporationApi.md#GetCorporationsCorporationId) | **Get** /v5/corporations/{corporation_id}/ | Get corporation information
-[**GetCorporationsCorporationIdAlliancehistory**](CorporationApi.md#GetCorporationsCorporationIdAlliancehistory) | **Get** /v3/corporations/{corporation_id}/alliancehistory/ | Get alliance history
-[**GetCorporationsCorporationIdBlueprints**](CorporationApi.md#GetCorporationsCorporationIdBlueprints) | **Get** /v3/corporations/{corporation_id}/blueprints/ | Get corporation blueprints
-[**GetCorporationsCorporationIdContainersLogs**](CorporationApi.md#GetCorporationsCorporationIdContainersLogs) | **Get** /v3/corporations/{corporation_id}/containers/logs/ | Get all corporation ALSC logs
-[**GetCorporationsCorporationIdDivisions**](CorporationApi.md#GetCorporationsCorporationIdDivisions) | **Get** /v2/corporations/{corporation_id}/divisions/ | Get corporation divisions
-[**GetCorporationsCorporationIdFacilities**](CorporationApi.md#GetCorporationsCorporationIdFacilities) | **Get** /v2/corporations/{corporation_id}/facilities/ | Get corporation facilities
+[**GetCorporationsCorporationId**](CorporationApi.md#GetCorporationsCorporationId) | **Get** /v4/corporations/{corporation_id}/ | Get corporation information
+[**GetCorporationsCorporationIdAlliancehistory**](CorporationApi.md#GetCorporationsCorporationIdAlliancehistory) | **Get** /v2/corporations/{corporation_id}/alliancehistory/ | Get alliance history
+[**GetCorporationsCorporationIdBlueprints**](CorporationApi.md#GetCorporationsCorporationIdBlueprints) | **Get** /v2/corporations/{corporation_id}/blueprints/ | Get corporation blueprints
+[**GetCorporationsCorporationIdContainersLogs**](CorporationApi.md#GetCorporationsCorporationIdContainersLogs) | **Get** /v2/corporations/{corporation_id}/containers/logs/ | Get all corporation ALSC logs
+[**GetCorporationsCorporationIdDivisions**](CorporationApi.md#GetCorporationsCorporationIdDivisions) | **Get** /v1/corporations/{corporation_id}/divisions/ | Get corporation divisions
+[**GetCorporationsCorporationIdFacilities**](CorporationApi.md#GetCorporationsCorporationIdFacilities) | **Get** /v1/corporations/{corporation_id}/facilities/ | Get corporation facilities
 [**GetCorporationsCorporationIdIcons**](CorporationApi.md#GetCorporationsCorporationIdIcons) | **Get** /v1/corporations/{corporation_id}/icons/ | Get corporation icon
-[**GetCorporationsCorporationIdMedals**](CorporationApi.md#GetCorporationsCorporationIdMedals) | **Get** /v2/corporations/{corporation_id}/medals/ | Get corporation medals
-[**GetCorporationsCorporationIdMedalsIssued**](CorporationApi.md#GetCorporationsCorporationIdMedalsIssued) | **Get** /v2/corporations/{corporation_id}/medals/issued/ | Get corporation issued medals
-[**GetCorporationsCorporationIdMembers**](CorporationApi.md#GetCorporationsCorporationIdMembers) | **Get** /v4/corporations/{corporation_id}/members/ | Get corporation members
-[**GetCorporationsCorporationIdMembersLimit**](CorporationApi.md#GetCorporationsCorporationIdMembersLimit) | **Get** /v2/corporations/{corporation_id}/members/limit/ | Get corporation member limit
-[**GetCorporationsCorporationIdMembersTitles**](CorporationApi.md#GetCorporationsCorporationIdMembersTitles) | **Get** /v2/corporations/{corporation_id}/members/titles/ | Get corporation&#39;s members&#39; titles
-[**GetCorporationsCorporationIdMembertracking**](CorporationApi.md#GetCorporationsCorporationIdMembertracking) | **Get** /v2/corporations/{corporation_id}/membertracking/ | Track corporation members
-[**GetCorporationsCorporationIdRoles**](CorporationApi.md#GetCorporationsCorporationIdRoles) | **Get** /v2/corporations/{corporation_id}/roles/ | Get corporation member roles
-[**GetCorporationsCorporationIdRolesHistory**](CorporationApi.md#GetCorporationsCorporationIdRolesHistory) | **Get** /v2/corporations/{corporation_id}/roles/history/ | Get corporation member roles history
+[**GetCorporationsCorporationIdMedals**](CorporationApi.md#GetCorporationsCorporationIdMedals) | **Get** /v1/corporations/{corporation_id}/medals/ | Get corporation medals
+[**GetCorporationsCorporationIdMedalsIssued**](CorporationApi.md#GetCorporationsCorporationIdMedalsIssued) | **Get** /v1/corporations/{corporation_id}/medals/issued/ | Get corporation issued medals
+[**GetCorporationsCorporationIdMembers**](CorporationApi.md#GetCorporationsCorporationIdMembers) | **Get** /v3/corporations/{corporation_id}/members/ | Get corporation members
+[**GetCorporationsCorporationIdMembersLimit**](CorporationApi.md#GetCorporationsCorporationIdMembersLimit) | **Get** /v1/corporations/{corporation_id}/members/limit/ | Get corporation member limit
+[**GetCorporationsCorporationIdMembersTitles**](CorporationApi.md#GetCorporationsCorporationIdMembersTitles) | **Get** /v1/corporations/{corporation_id}/members/titles/ | Get corporation&#39;s members&#39; titles
+[**GetCorporationsCorporationIdMembertracking**](CorporationApi.md#GetCorporationsCorporationIdMembertracking) | **Get** /v1/corporations/{corporation_id}/membertracking/ | Track corporation members
+[**GetCorporationsCorporationIdRoles**](CorporationApi.md#GetCorporationsCorporationIdRoles) | **Get** /v1/corporations/{corporation_id}/roles/ | Get corporation member roles
+[**GetCorporationsCorporationIdRolesHistory**](CorporationApi.md#GetCorporationsCorporationIdRolesHistory) | **Get** /v1/corporations/{corporation_id}/roles/history/ | Get corporation member roles history
 [**GetCorporationsCorporationIdShareholders**](CorporationApi.md#GetCorporationsCorporationIdShareholders) | **Get** /v1/corporations/{corporation_id}/shareholders/ | Get corporation shareholders
-[**GetCorporationsCorporationIdStandings**](CorporationApi.md#GetCorporationsCorporationIdStandings) | **Get** /v2/corporations/{corporation_id}/standings/ | Get corporation standings
-[**GetCorporationsCorporationIdStarbases**](CorporationApi.md#GetCorporationsCorporationIdStarbases) | **Get** /v2/corporations/{corporation_id}/starbases/ | Get corporation starbases (POSes)
-[**GetCorporationsCorporationIdStarbasesStarbaseId**](CorporationApi.md#GetCorporationsCorporationIdStarbasesStarbaseId) | **Get** /v2/corporations/{corporation_id}/starbases/{starbase_id}/ | Get starbase (POS) detail
+[**GetCorporationsCorporationIdStandings**](CorporationApi.md#GetCorporationsCorporationIdStandings) | **Get** /v1/corporations/{corporation_id}/standings/ | Get corporation standings
+[**GetCorporationsCorporationIdStarbases**](CorporationApi.md#GetCorporationsCorporationIdStarbases) | **Get** /v1/corporations/{corporation_id}/starbases/ | Get corporation starbases (POSes)
+[**GetCorporationsCorporationIdStarbasesStarbaseId**](CorporationApi.md#GetCorporationsCorporationIdStarbasesStarbaseId) | **Get** /v1/corporations/{corporation_id}/starbases/{starbase_id}/ | Get starbase (POS) detail
 [**GetCorporationsCorporationIdStructures**](CorporationApi.md#GetCorporationsCorporationIdStructures) | **Get** /v4/corporations/{corporation_id}/structures/ | Get corporation structures
-[**GetCorporationsCorporationIdTitles**](CorporationApi.md#GetCorporationsCorporationIdTitles) | **Get** /v2/corporations/{corporation_id}/titles/ | Get corporation titles
-[**GetCorporationsNpccorps**](CorporationApi.md#GetCorporationsNpccorps) | **Get** /v2/corporations/npccorps/ | Get npc corporations
+[**GetCorporationsCorporationIdTitles**](CorporationApi.md#GetCorporationsCorporationIdTitles) | **Get** /v1/corporations/{corporation_id}/titles/ | Get corporation titles
+[**GetCorporationsNpccorps**](CorporationApi.md#GetCorporationsNpccorps) | **Get** /v1/corporations/npccorps/ | Get npc corporations
 
 
 # **GetCorporationsCorporationId**

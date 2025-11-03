@@ -309,26 +309,6 @@ paths:
             type: "string"
             description: "Diff HTML response"
             title: "get_diff_version_a_version_b_ok"
-  /headers/:
-    get:
-      tags:
-      - "Meta"
-      summary: "Debug request headers"
-      description: "Echo the request headers for debugging purposes. Note that the\
-        \ 'Connection' header and any 'X-' headers are not included"
-      operationId: "get_headers"
-      produces:
-      - "application/json"
-      parameters: []
-      responses:
-        200:
-          description: "Headers OK"
-          schema:
-            type: "object"
-            description: "Headers response"
-            title: "get_headers_ok"
-            additionalProperties:
-              type: "string"
   /latest/swagger.json:
     get:
       tags:
