@@ -1,4 +1,4 @@
-module github.com/antihax/goesi
+module github.com/kernel-panic-team/goesi
 
 go 1.16
 

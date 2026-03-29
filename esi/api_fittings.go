@@ -31,7 +31,7 @@ import (
 
 	"fmt"
 
-	"github.com/antihax/goesi/optional"
+	"github.com/kernel-panic-team/goesi/optional"
 )
 
 // Linger please
